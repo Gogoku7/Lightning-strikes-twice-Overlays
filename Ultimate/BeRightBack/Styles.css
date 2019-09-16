@@ -1,0 +1,64 @@
+html
+{
+	background-color: black;
+}
+
+body
+{
+	width: 1920px;
+	height: 1080px;
+	margin: 0;
+	padding: 0;
+	background-image: url('background.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#slideshow 
+{
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 220px;
+	top: 50px;
+}
+
+#slideshow > div
+{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+#slideshow > div > img
+{
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#beRightBackContainer
+{
+	width: 600px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: absolute;
+	left: 660px;
+	top: 900px;
+	text-align: center;
+	line-height: 100px;
+    align-items: center;
+}
+
+#beRightBackText
+{
+	color: white;
+	font-size: 88px;
+	font-family: 'Bebas Neue', sans-serif;
+}
