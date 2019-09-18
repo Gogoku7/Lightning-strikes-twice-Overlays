@@ -16,7 +16,7 @@ Responsible for:
 - Handling the events of the WebSocket
 	- onopen:
 		- Send an "overlayConnected" message
-	- operror:
+	- onerror:
 		- Show a snackbar message using Snackbar.js
 		- Log information to the console
 	- onmessage
