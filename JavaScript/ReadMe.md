@@ -1,14 +1,14 @@
 ﻿# Super Smash Bros. - JavaScript Files
 
-###fitty.js
+### fitty.js
 
 Responsible for resizing text in the overlay based on the length of text and the container size.
 
-###jQuery.js
+### jQuery.js
 
 Allows for the easier syntax.
 
-###OverlayManager.js
+### OverlayManager.js
 
 Responsible for:
 - Resizing the initial text
@@ -29,6 +29,6 @@ Responsible for:
 	- When the streaming software browser source is closing
 		- Send an "overlayDisconnected" message
 
-###Snackbar.js
+### Snackbar.js
 
 Responsible for showing the snackbar error message for when the overlay html files cannot connect to the WebSocket.
