@@ -25,7 +25,7 @@ Responsible for:
 		- Update the content of the faded out elements by reloading the stylesheets
 		- Resize the updated and faded out elements
 		- Fade the updated elements back in again
-		- resizing all the appropriate text elements when a data of type "forceResize" was received
+		- resizing all the appropriate text elements when a message of type "forceResize" was received
 	- When the streaming software browser source is closing
 		- Send an "overlayDisconnected" message
 
